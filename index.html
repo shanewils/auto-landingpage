@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Raider-pattern combat bike</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section>
+            <header>
+                <a href="#" class="logo">Raider-pattern Combat Bike</a>
+                <div class="toggleMenu" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Specifications</a></li>
+                    <li><a href="#">Where to buy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="contentBx">
+                    <h2>Purge the unclean</br>
+                    With Anti-Heretical Horsepower</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Optio dolore reiciendis quam. Dolor praesentium iusto laborum
+                        iure voluptates consequatur adipisci deleniti vitae doloribus
+                         recusandae atque cupiditate vel, at quam quo.</p>
+                         <a href="#">Order Now</a>
+                </div>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
+                <p>Image copyright Games Workshop 2020</p>
+            </ul>
+           
+        </section>
+       
+      
+        <script type="text/javascript">
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.toggleMenu');
+                const navigation = document.querySelector('.navigation');
+                toggleMenu.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+</html>
